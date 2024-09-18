@@ -1150,13 +1150,13 @@ public class MagickImage extends Magick {
      * their difference is above a threshold, a percentage of the
      * difference is added back into the original pixel.
      *<p>
-     * The first two arguments, <tt>radius</tt> and <tt>sigma</tt>,
+     * The first two arguments, <code>radius</code> and <code>sigma</code>,
      * specify the blurring used to create the "unsharp" image. See
      * {@link #gaussianBlurImage} for a detail explanation. It will
      * suffice to say that the larger the radius and sigma the more
      * this blurred image will diverge from the original.
      *<p>
-     * The last two arguments, <tt>threshold</tt> and <tt>amount</tt>,
+     * The last two arguments, <code>threshold</code> and <code>amount</code>,
      * specify the difference threshold required to apply an adjustment
      * to each pixel and, once the threshold is reached, the amount of
      * the difference to be added back into the original pixels. A high

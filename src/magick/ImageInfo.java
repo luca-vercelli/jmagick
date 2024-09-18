@@ -550,7 +550,6 @@ public class ImageInfo extends Magick {
 		/**
 		 * Set the magick attribute of the handle.
 		 *
-		 * @author: Abdulbaset Gaddah &lt;agaddah@yahoo.com&gt;
 		 * @param magick new value of the magick attribute
 		 * @throws MagickException if an error occurs
 		 */
@@ -560,7 +559,6 @@ public class ImageInfo extends Magick {
     /**
      * Return the magick attribute of the handle.
      *
-     * @author Abdulbaset Gaddah &lt;agaddah@yahoo.com&gt;
      * @return the magick attribute value
      * @throws MagickException if an error occurs
      */
