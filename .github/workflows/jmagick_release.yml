@@ -41,7 +41,7 @@ jobs:
       - name: Make
         run: make
 
-      - name: ncipollo/release-action@v1
+      - uses: ncipollo/release-action@v1
         with:
           artifacts: lib/*.jar,lib/*.so
           # allowUpdates: true
